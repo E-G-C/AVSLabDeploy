@@ -9,22 +9,22 @@ echo '############  Bootstrap the Config #######################'
 echo '############# create desired labs ########################'
 
 echo '############# create lab01 ################################'
-.\labdeploy.exe -lab .\labs\lab01.yml | tee .\logs\lab01.log
+.\labdeploy.exe -lab .\labs\SDDC1\lab01.yml | tee .\logs\lab01.log
 
 echo '############# create lab02 ################################'
-.\labdeploy.exe -lab .\labs\lab02.yml | tee .\logs\lab02.log 
+.\labdeploy.exe -lab .\labs\SDDC1\lab02.yml | tee .\logs\lab02.log 
 
 echo '############# lab03 ################################'
-.\labdeploy.exe -lab .\labs\lab03.yml | tee .\logs\lab03.log
+.\labdeploy.exe -lab .\labs\SDDC1\lab03.yml | tee .\logs\lab03.log
 
 vecho '############ lab04 ################################'
-.\labdeploy.exe -lab .\labs\lab04.yml | tee .\logs\lab04.log 
+.\labdeploy.exe -lab .\labs\SDDC1\lab04.yml | tee .\logs\lab04.log 
 
 echo '############# lab05 ################################'
-.\labdeploy.exe -lab .\labs\lab05.yml | tee .\logs\lab05.log
+.\labdeploy.exe -lab .\labs\SDDC1\lab05.yml | tee .\logs\lab05.log
 
 echo '############# lab06 ################################'
-.\labdeploy.exe -lab .\labs\lab06.yml | tee .\logs\lab06.log
+.\labdeploy.exe -lab .\labs\SDDC1\lab06.yml | tee .\logs\lab06.log
 
 
 ```
