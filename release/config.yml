@@ -14,8 +14,8 @@ NSXT:
   Host: 10.101.0.3
   Username: admin
   Password: k%Xt34x94i$E
-  TransportZoneID: ""
-  T0Router: HHAHAH
+  TransportZoneID: 
+  T0Router:
 DNS:
   Domain: lab.avs.ms
   Servers: 1.1.1.1
