@@ -1,4 +1,4 @@
-LabID: 215de0a204db
+LabID: 04afee1313cb
 VLAN: 600
 LabCIDR: 10.1.6.0/24
 ExampleVMs: true
@@ -9,4 +9,4 @@ Workloads:
 - Name: app
   ID: 11
   Gateway: 10.1.16.129/25
-HostCount: 0
+HostCount: 1
