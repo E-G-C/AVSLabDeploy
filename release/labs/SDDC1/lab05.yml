@@ -1,0 +1,12 @@
+LabID: aac83146b86f
+VLAN: 500
+LabCIDR: 10.1.5.0/24
+ExampleVMs: true
+Workloads:
+- Name: web
+  ID: 10
+  Gateway: 10.1.15.1/25
+- Name: app
+  ID: 11
+  Gateway: 10.1.15.129/25
+HostCount: 0

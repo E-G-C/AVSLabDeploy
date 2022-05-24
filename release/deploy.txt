@@ -1,0 +1,25 @@
+cd C:\LabDeploy
+mkdir logs
+echo '####################################################'
+go run . -bootstrap | tee .\logs\bootstrap.log 
+
+echo '############# lab01 ################################'
+go run . -lab lab01.yml | tee .\logs\lab01.log
+
+echo '############# lab02 ################################'
+go run . -lab lab02.yml | tee .\logs\lab02.log 
+
+echo '############# lab03 ################################'
+go run . -lab lab03.yml | tee .\logs\lab03.log
+
+vecho '############ lab04 ################################'
+go run . -lab lab04.yml | tee .\logs\lab04.log 
+
+echo '############# lab05 ################################'
+go run . -lab lab05.yml | tee .\logs\lab05.log
+
+echo '############# lab06 ################################'
+go run . -lab lab06.yml | tee .\logs\lab06.log
+
+
+```

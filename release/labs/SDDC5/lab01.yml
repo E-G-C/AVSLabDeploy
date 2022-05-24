@@ -1,0 +1,12 @@
+LabID: 73f944b0384c
+VLAN: 100
+LabCIDR: 10.5.1.0/24
+ExampleVMs: true
+Workloads:
+- Name: web
+  ID: 10
+  Gateway: 10.5.11.1/25
+- Name: app
+  ID: 11
+  Gateway: 10.5.11.129/25
+HostCount: 0
