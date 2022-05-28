@@ -1,7 +1,7 @@
 VCenter:
   URL: https://10.101.0.2/sdk
   Username: cloudadmin@vsphere.local
-  Password: 3YaoKi%47h5#
+  Password: 
   ResourcePool: /SDDC-Datacenter/host/Cluster-1/Resources
   Folder: /SDDC-Datacenter/vm
   ESXiVMTemplate: /SDDC-Datacenter/vm/Lab-Templates/Lab-Template-esxi
@@ -13,7 +13,7 @@ VCenter:
 NSXT:
   Host: 10.101.0.3
   Username: admin
-  Password: k%Xt34x94i$E
+  Password: 
   TransportZoneID: 
   T0Router:
 DNS:

@@ -1,4 +1,4 @@
-LabID: dde4171ea381
+LabID: 
 VLAN: 700
 LabCIDR: 10.9.7.0/24
 ExampleVMs: true

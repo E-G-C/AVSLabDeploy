@@ -1,4 +1,4 @@
-LabID: 5c6f3a1b9d32
+LabID: 
 VLAN: 1000
 LabCIDR: 10.8.10.0/24
 ExampleVMs: true
