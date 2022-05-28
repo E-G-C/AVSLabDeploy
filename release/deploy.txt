@@ -1,10 +1,12 @@
+$SDDC_NUMBER =[SDDC Number]
+
 cd C:\LabDeploy
 mkdir logs
 echo '############# Create new labs Ids #########################'
 .\labdeploy -id -d .\labs\
 
 echo '############  Bootstrap the Config #######################'
-.\labdeploy.exe -bootstrap | tee .\logs\bootstrap.log 
+.\labdeploy.exe -bootstrap -config .\configs\$SDDC_NUMBER | tee .\logs\bootstrap.log 
 
 echo '############# create desired labs ########################'
 
