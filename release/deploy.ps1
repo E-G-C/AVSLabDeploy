@@ -1,12 +1,12 @@
-$SDDC_NUMBER = 5
-
+$SDDC_NUMBER = 
 $NUMBER_OF_LABS = 10
 
+cd c:\LabDeploy\
 
 Write-Output  '########### Generating new labs Ids #########################'
 .\labdeploy -id -d .\labs\
 
-Write-Output '############  Bootstrapping the Config #######################'
+Write-Output '############  Bootstrapping Config file  #######################'
 .\labdeploy.exe -bootstrap -config .\configs\SDDC$SDDC_NUMBER-config.yml | Tee-Object .\logs\bootstrap.log 
 
 

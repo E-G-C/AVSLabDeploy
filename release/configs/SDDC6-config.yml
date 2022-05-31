@@ -1,5 +1,5 @@
 VCenter:
-  URL: https://10.101.0.2/sdk
+  URL: https://10.106.0.2/sdk
   Username: cloudadmin@vsphere.local
   Password: 
   ResourcePool: /SDDC-Datacenter/host/Cluster-1/Resources
@@ -11,7 +11,7 @@ VCenter:
   Datastore: /SDDC-Datacenter/datastore/vsanDatastore
   NetworkPrefix: /SDDC-Datacenter/network/
 NSXT:
-  Host: 10.101.0.3
+  Host: 10.106.0.3
   Username: admin
   Password: 
   TransportZoneID: 
